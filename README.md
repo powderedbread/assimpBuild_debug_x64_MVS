@@ -16,6 +16,8 @@ And type in the path to the lib folder.  The path should end in \lib
 5. Then go to Linker > Input
 and add "assimp-vc143-mtd.lib"
 
+6.  Copy and past eassimp-vc143-mtd.dll into your root script folder where your main.cpp is.
+
 That should be about it.  Make sure you have x64 and debug selected on top when you try to run the program as well.
 ***note, I dont know if you need the dll in the lib folder, but one in the root folder is the same dll.  Its there for convenience since you need to copy and paste it.
-.
+
