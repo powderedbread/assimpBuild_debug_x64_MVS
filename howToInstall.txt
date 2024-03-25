@@ -1,0 +1,14 @@
+include:
+include folder
+
+library link:
+lib folder
+
+external file
+add "assimp-vc143-mtd.lib" to library linker extra files.
+
+copy
+assimp-vc143-mtd.dll to root project folder (where your solution/main.cpp file is)
+
+***note, I dont know if you need the dll in the lib folder, but one in the root folder is the same dll.  Its there for convenience since you need to copy and paste it.
+.
